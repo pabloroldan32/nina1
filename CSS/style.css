@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*siempre comieza de esta forma uncss*/
+
+*{
+    font-family: "roboto" , sans-serif; 
+   	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;
+	overflow-x: hidden;*/
+}
+html{
+	font-size: 62.5%;
+}
+body{
+	background-image: url(../img/fondogris.peg);
+	background-attachment: fixed;
+	
+}
+/*combos,envios,contacto,seguinos en nuestras redes*/
+h1,h2,h3,{
+	color: black;
+	font-size: 2rem;
+}
+/*color footer sguinos en nuestras redes*/
+h4,h6{
+	color: greenyellow;
+	font-size: 2rem;
+
+}
+
+/*comienzo header y nav*/
+
+header nav{
+    background-color: rgba(0, 0, 15, 1);
+    position:sticky;
+    top: 0;
+    padding: 10px 40px;
+    /*width: 100∞;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+
+}	
+header nav ul{
+    /*display: inline-block;*/
+    /*margin-left: 30px;	*/
+    display: flex;
+
+
+}
+
+header nav ul li {
+	list-style: none;
+	/*display: inline-block;*/
+    margin-right: 40px;
+     /*margin-top: -200px; 
+     height: 30px;
+     vertical-align: middle;
+     font-size: 2rem;*/
+     
+     
+}     
+     
+ /*botonera,logo,pro,comb,nos,cont,envios*/
+
+header nav ul li {
+	font-size: 2rem;
+	text-decoration: none;
+	color:greenyellow;
+
+}	 
+
+
+/*hover*/
+header nav ul :hover{
+	color: darkgreen;
+	font-weight: 10;
+    
+}
+/*hijos propiedades*/
+.flex-grow1{
+    flex-grow: 1;
+}
+.flex-grow2{
+    flex-grow: 1;
+}
+.flex-grow3{
+    flex-grow: 3;
+}
+.flex-grow4{
+    flex-grow: 4;
+}
+.flex-grow5{
+    flex-grow: 5;
+} 
+
+/*imgcoco*/
+.w-100{
+	width: 100%;
+}
+
+/*comiezo section combos*/
+
+section h1{
+	background-color:white;
+	
+}     
+.colorCombos{
+	background-color: white;
+}
+
+section h2{
+	background-color: white;
+}
+.colorEnvios{
+	background-color: white;
+    
+}
+
+section h3{
+	background-color: white;
+}
+.colorContacto{
+	background-color: white;
+}
+ 
+
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align:left;
+}   
+
+.text-size{
+	font-size: 4rem;
+}
+.imgCombos{
+	margin: 20px 20px;
+	width: 30vw;
+	border: solid 4px black;
+	box-sizing: border-box;
+}
+/*recuadro domicilio entrega local*/
+.secEnvios{
+	background-color:#D3D3D3;
+	font-size: 2rem;
+	margin: 20px 20px;
+	width: 50%;
+	
+}
+
+.pie{
+	padding: 10px;
+	background-color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height:auto;
+
+}
+.pieMapa{
+	background-color: white;
+}
+
+.pieIconsm{
+	width: 30px;
+}
+
+.pieTitulomd{
+	display:inline-block ;
+	margin-right: 20px;
+	font-size: 2rem;
+}	
+	
+ 
+
+
+/*#grad{
+	background-image: linear-gradient(lightgreen,lightgray);/*
+}
+/*.navIcon{
+	filter: brightness(1.1);
+	mix-blend-mode: multiply;/*
+}
+
+/*Productos.html*/
+
+.carpas{
+background-color:whitesmoke ;	
+margin:5px 5px;
+padding: 5px 5px;
+width: 30%;
+
+}
+
+.boxProductos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    font-size: 2rem;
+
+}
+
+.macetas{  
+background-color:whitesmoke ;	
+margin:5px 5px;
+padding: 5px 5px;
+width: 30%;
+
+}
+
+.fertilizantes{  
+background-color:whitesmoke ;	
+margin:5px 5px;
+padding: 5px 5px;
+width: 30%;
+
+}
+
+div   
+
+.contenedor{
+   display: grid; 
+   grid-template-columns: 20% 70% 10%; 
+   grid-template-rows: auto auto auto auto; 
+   "header header header" 
+   "productos productos productos" 
+   "footer footer footer";
+                                 
+ } 
+
+
+  --bautice en htmal con id                           
+#mainNav{
+   grid-area: nav;
+}
+
+#header{
+   grid-area: header;
+}
+
+#productos{
+	grid-area: productos;
+
+}
+
+#footer{
+	grid-area: footer;
+}
+
+
+
+
